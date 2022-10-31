@@ -19,7 +19,7 @@ function App() {
   }, []);
   return (
     <>
-      {init ? <AppRouter isLoggedIn={isLoggedIn} /> : "Initialing..." }
+      {init ? <AppRouter isLoggedIn={isLoggedIn} /> : "로딩중..." }
     </>
   );
 }
